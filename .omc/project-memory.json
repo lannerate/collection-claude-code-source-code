@@ -1,0 +1,453 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1775010945000,
+  "projectRoot": "/Users/hui/repos/agent/collection-claude-code-source-code",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "claude-code-source-code": {
+      "path": "claude-code-source-code",
+      "purpose": null,
+      "fileCount": 7,
+      "lastAccessed": 1775010944991,
+      "keyFiles": [
+        "QUICKSTART.md",
+        "README.md",
+        "README_CN.md",
+        "package-lock.json",
+        "package.json"
+      ]
+    },
+    "claw-code": {
+      "path": "claw-code",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1775010944991,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "original-source-code": {
+      "path": "original-source-code",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1775010944992,
+      "keyFiles": [
+        "readme.md",
+        "src.zip"
+      ]
+    },
+    "claude-code-source-code/docs": {
+      "path": "claude-code-source-code/docs",
+      "purpose": "Documentation",
+      "fileCount": 0,
+      "lastAccessed": 1775010944992,
+      "keyFiles": []
+    },
+    "claude-code-source-code/scripts": {
+      "path": "claude-code-source-code/scripts",
+      "purpose": "Build/utility scripts",
+      "fileCount": 4,
+      "lastAccessed": 1775010944992,
+      "keyFiles": [
+        "build.mjs",
+        "prepare-src.mjs",
+        "stub-modules.mjs"
+      ]
+    },
+    "claude-code-source-code/src": {
+      "path": "claude-code-source-code/src",
+      "purpose": "Source code",
+      "fileCount": 18,
+      "lastAccessed": 1775010944992,
+      "keyFiles": [
+        "QueryEngine.ts",
+        "Task.ts",
+        "Tool.ts"
+      ]
+    },
+    "claude-code-source-code/stubs": {
+      "path": "claude-code-source-code/stubs",
+      "purpose": "Stub implementations",
+      "fileCount": 4,
+      "lastAccessed": 1775010944993,
+      "keyFiles": [
+        "bun-bundle.ts",
+        "global.d.ts",
+        "macros.d.ts"
+      ]
+    },
+    "claw-code/assets": {
+      "path": "claw-code/assets",
+      "purpose": "Static assets",
+      "fileCount": 5,
+      "lastAccessed": 1775010944993,
+      "keyFiles": [
+        "clawd-hero.jpeg",
+        "instructkr.png",
+        "star-history.png"
+      ]
+    },
+    "claw-code/src": {
+      "path": "claw-code/src",
+      "purpose": "Source code",
+      "fileCount": 36,
+      "lastAccessed": 1775010944994,
+      "keyFiles": [
+        "QueryEngine.py",
+        "Tool.py",
+        "__init__.py"
+      ]
+    },
+    "claw-code/tests": {
+      "path": "claw-code/tests",
+      "purpose": "Test files",
+      "fileCount": 1,
+      "lastAccessed": 1775010944994,
+      "keyFiles": [
+        "test_porting_workspace.py"
+      ]
+    },
+    "original-source-code/src": {
+      "path": "original-source-code/src",
+      "purpose": "Source code",
+      "fileCount": 18,
+      "lastAccessed": 1775010944995,
+      "keyFiles": [
+        "QueryEngine.ts",
+        "Task.ts",
+        "Tool.ts"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "original-source-code/src/CLAUDE.md",
+      "accessCount": 2,
+      "lastAccessed": 1775011283388,
+      "type": "file"
+    },
+    {
+      "path": "README.MD",
+      "accessCount": 1,
+      "lastAccessed": 1775011197393,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/readme.md",
+      "accessCount": 1,
+      "lastAccessed": 1775011197425,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/main.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775011212738,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/query.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775011212791,
+      "type": "file"
+    },
+    {
+      "path": "claude-code-source-code/README.md",
+      "accessCount": 1,
+      "lastAccessed": 1775011246934,
+      "type": "file"
+    },
+    {
+      "path": "claude-code-source-code/package.json",
+      "accessCount": 1,
+      "lastAccessed": 1775011259977,
+      "type": "file"
+    },
+    {
+      "path": "claude-code-source-code/tsconfig.json",
+      "accessCount": 1,
+      "lastAccessed": 1775011260030,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/AGENTS.md",
+      "accessCount": 1,
+      "lastAccessed": 1775014026825,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/services/tokenEstimation.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014219539,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/services/voice.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014219608,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/services/claudeAiLimits.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014219665,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/services/notifier.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014219717,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/services/vcr.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014219769,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/buddy/useBuddyNotification.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775014232187,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/assistant/sessionHistory.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014232337,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/plugins/bundled/index.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014232393,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/plugins/builtinPlugins.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014232422,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/buddy/types.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014232450,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/skills/bundledSkills.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014232478,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/buddy/prompt.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014232514,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/buddy/sprites.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014232551,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/buddy/companion.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014232608,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/coordinator/coordinatorMode.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014232672,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/skills/mcpSkillBuilders.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014232770,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/tasks/pillLabel.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014232815,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/tasks/types.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014232993,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/tasks/stopTask.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014233052,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/tasks/LocalMainSessionTask.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014233130,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/vim/motions.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014233160,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/vim/types.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014233198,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/skills/loadSkillsDir.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014233243,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/vim/operators.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014233310,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/vim/transitions.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014233339,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/vim/textObjects.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014233361,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/voice/voiceModeEnabled.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014233417,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/bridge/bridgeConfig.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014255206,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/bridge/bridgeMessaging.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014255237,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/bridge/remoteBridgeCore.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014255255,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/bootstrap/state.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014255276,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/bridge/bridgeApi.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014255299,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/bridge/replBridge.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014255330,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/bridge/jwtUtils.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014255380,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/bridge/sessionRunner.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014255415,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/bridge/types.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014255433,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/bridge/bridgeMain.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014255473,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/services/mcp/MCPConnectionManager.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775014259771,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/services/analytics/index.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014259796,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/services/diagnosticTracking.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014259824,
+      "type": "file"
+    },
+    {
+      "path": "original-source-code/src/services/api/client.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775014259880,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"ls /Users/hui/repos/agent/collection-claude-code-source-code/original-source-code/src/utils/computerUse/ 2>/dev/null; echo \\\"---\\\"; ls /Users/hui/repos/agent/collection-claude-code-source-...",
+  "error": "Exit code 1\nappNames.ts\ncleanup.ts\ncommon.ts\ncomputerUseLock.ts\ndrainRunLoop.ts\nescHotkey.ts\nexecutor.ts\ngates.ts\nhostAdapter.ts\ninputLoader.ts\nmcpServer.ts\nsetup.ts\nswiftLoader.ts\ntoolRendering.tsx\nwrapper.tsx\n---\nsandbox-adapter.ts\nsandbox-ui-utils.ts\n---\nfallbackStorage.ts\nindex.ts\nkeychainPrefetch.ts\nmacOsKeychainHelpers.ts\nmacOsKeychainStorage.ts\nplainTextStorage.ts\n---\nremote\n---",
+  "timestamp": "2026-04-01T03:32:48.913Z",
+  "retry_count": 1
+}
